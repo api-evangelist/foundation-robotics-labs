@@ -1,0 +1,55 @@
+generated: '2026-08-16'
+method: probed
+source: live HTTPS probes of https://foundation.bot/.well-known/*
+note: >-
+  Every canonical /.well-known/ path returned HTTP 404 on the only host
+  Foundation Robotics Labs operates (foundation.bot). NO WellKnown, APICatalog
+  or SecurityTxt pointer is wired in apis.yml, because this file records an
+  ABSENCE, not a served surface. The 404 bodies are the Framer site's HTML
+  error page, not documents.
+hosts:
+- host: foundation.bot
+  probed: '2026-08-16'
+  hit_count: 0
+  paths:
+  - path: /.well-known/security.txt
+    status: 404
+    content_type: text/html; charset=utf-8
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    content_type: text/html; charset=utf-8
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    content_type: text/html; charset=utf-8
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    content_type: text/html; charset=utf-8
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    content_type: text/html; charset=utf-8
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    content_type: text/html; charset=utf-8
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    content_type: text/html; charset=utf-8
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    content_type: text/html; charset=utf-8
+    file: null
+  - path: /.well-known/mcp.json
+    status: 404
+    content_type: text/html; charset=utf-8
+    file: null
+unreachable_hosts:
+- host: api.foundation.bot
+  note: NXDOMAIN — no API subdomain is delegated.
+- host: docs.foundation.bot
+  note: NXDOMAIN — no documentation subdomain is delegated.
