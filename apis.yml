@@ -43,7 +43,7 @@ x-type: company
 x-source: harvest:secondary-market
 x-tier: 3
 x-tier-reason: no-apis
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-08-16'
 modified: '2026-08-16'
 apis: []
