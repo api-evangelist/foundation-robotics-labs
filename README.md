@@ -64,5 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Foundation Robotics Labs is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/foundation-robotics-labs_stock/
+Foundation Robotics Labs — trading publicly as Foundation and incorporated as Foundation Future Industries, Inc. — is a San Francisco humanoid robotics company founded in April 2024 by Sankaet Pathak, Arjun Sethi and Mike LeBlanc. It builds Phantom, a general-purpose humanoid robot aimed at industrial automation, logistics, inspection, disaster response and defense, and Cortex, the company's self-described physics foundation model built on Deep Variational Bayes Filters that pairs physics-informed prediction with vision-language reasoning to drive the robot. The company's published master plan runs from building humanoids through fleet coherence and on to building cities, and it states explicitly that it designs for military environments, unlike U.S. competitors committed to non-weaponization. Foundation has raised a reported $111M and is traded on the secondary market via Forge Global. As of this profile Foundation publishes NO public developer surface — no developer portal, documentation, API reference, OpenAPI/AsyncAPI definition, SDK, package, MCP server or agent card. Its entire public web presence is a five-page Framer marketing site (home, Phantom, Cortex, master plan, culture, careers) with no /docs, /developers, /api, /pricing, /terms or /privacy paths and no llms.txt. Its GitHub organization (github.com/foundationbot, verified first-party by @foundation.bot commit-author domains) holds internal test benches and forks of open-source robotics tooling — Drake, jetson-containers, Kalibr, PlotJuggler, Fast-DDS, an EtherCAT master, actuator dyno benches and NXP S32K MCU demos — and contains no API specification of any kind.
+
+**Areas:** Robotics · Humanoid Robots · Embodied AI · Foundation Models · Defense · Industrial Automation · Logistics · Hardware · Phantom · Cortex · Autonomous Systems · San Francisco
+
+## Foundation Robotics Labs on APIs.io
+
+Everything profiled for Foundation Robotics Labs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/foundation-robotics-labs/](https://apis.io/providers/foundation-robotics-labs/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Foundation Robotics Labs Domain Security](https://apis.io/security/foundation-robotics-labs/foundation-robotics-labs-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://foundation.bot/)
+- [GitHub](https://github.com/foundationbot)
+
+## API Evangelist rating
+
+**Kin Score 3.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/foundation-robotics-labs/](https://apis.io/providers/foundation-robotics-labs/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Foundation Robotics Labs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/foundation-robotics-labs/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
